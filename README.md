@@ -1,2 +1,2 @@
-# lunaswicksandwonders.github.io
+# lunaswicks&wonders.github.io
 this site is for Luans wonders and wicks a fictional candle store that's a home based micro business we sell a variety of scented/aromatherapy candles as well as decorative candles we also have a request form for anyone wanting a custom made candle that we normally don't sell or have in stock due to being a small home business I will respond to all messages within 24-48 hours.
