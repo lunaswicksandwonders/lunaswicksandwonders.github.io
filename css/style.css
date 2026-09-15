@@ -51,5 +51,14 @@ h2 {
 p {
   margin-bottom: 32px;
 }
+.cta {
+  display: inline-block;
+  background-color: #65527f;
+  color: #faf7f2;
+  font-size: 1rem;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
   
   
