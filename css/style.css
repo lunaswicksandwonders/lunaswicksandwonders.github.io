@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="css/style.css">
+
+body { 
+  font-family:poppins,sans-serf;
+      color: #3d3548;
+      background-color:#faf7f2;
+     }
+
+header{
+  background-color:#65527f
+  color: #faf7f2;
+  padding: 40px;
+  }
+
+header nav a {
+  color: #3d3548
+  margin-right: 14px;
+}
+h1 {
+  font-family: Playfair Display,serf;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: Playfair Display,serf;
+  font-size: 2rem;
+  }
+
+h3 {
+   font-family: Playfair Display,serf;
+  font-size: 1.53rem;
+}
+
+h4 {
+   font-family: poppins,sans-serf;
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1rem;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 32px;
+}
+  
+  
