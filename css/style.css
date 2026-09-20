@@ -1,23 +1,23 @@
 <link rel="stylesheet" href="css/style.css">
 
 body { 
-  font-family:poppins,sans-serf;
+  font-family:poppins,sans-serif;
       color: #3d3548;
       background-color:#faf7f2;
      }
 
 header{
-  background-color:#65527f
+  background-color:#65527f;
   color: #faf7f2;
   padding: 40px;
   }
 
 header nav a {
-  color: #3d3548
+  color: #3d3548;
   margin-right: 14px;
 }
 h1 {
-  font-family: Playfair Display,serf;
+  font-family: "Playfair Display",seirf;
   font-size: 2.5rem;
 }
 
