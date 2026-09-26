@@ -1,25 +1,25 @@
+/* Luna's Wicks & Wonders - Site Styles */
 
-body { 
-  
-     margin: 0;
-  font-family:"Poppins",sans-serif;
-      color: #3d3548;
-      background-color:#faf7f2;
-    line-height: 1.6;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #3d3548;
+  background-color: #faf7f2;
+  line-height: 1.6;
+}
 
-     }
-
-header{
-  background-color:#65527f;
+header {
+  background-color: #65527f;
   color: #faf7f2;
-  padding:40px ;
+  padding: 40px;
   text-align: center;
-  }
+}
 
 header nav a {
-  color: #3d3548;
+  color: #faf7f2;
   margin-right: 14px;
 }
+
 nav a[aria-current="page"] {
   font-weight: bold;
   text-decoration: underline;
@@ -44,51 +44,52 @@ a:focus {
   outline: 3px solid #d9822b;
   outline-offset: 2px;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
 h1 {
-  font-family: "Playfair Display",seirf;
   font-size: 2.5rem;
 }
 
 h2 {
-  font-family: Playfair Display,serf;
   font-size: 2rem;
-  }
+  margin-bottom: 8px;
+}
 
 h3 {
-   font-family: Playfair Display,serf;
-  font-size: 1.53rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-   font-family: poppins,sans-serf;
+  font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
 }
+
 p {
   font-size: 1rem;
+  margin-bottom: 32px;
 }
+
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
-h2 {
-  margin-bottom: 8px;
-}
-
-p {
-  margin-bottom: 32px;
-}
 .cta {
   display: inline-block;
   background-color: #7a5a16;
   color: #faf7f2;
   font-size: 1rem;
-  padding: 32px 16px;
+  padding: 12px 20px;
   border-radius: 4px;
   margin-top: 24px;
+  text-decoration: none;
 }
-
 
 .swatch {
   width: 140px;
@@ -98,27 +99,39 @@ p {
   border: 1px solid #3d3548;
 }
 
-.swatch-primary { background-color: #65527f; }
-.swatch-neutral { background-color: #faf7f2; }
-.swatch-accent 1 { background-color: #d8bfd8; }
-.swatch-accent 2 { background-color: #7a5a16; }
-
-table {
-    border-collapse: collapse;
-    width: 100%;
+.swatch-primary {
+  background-color: #65527f;
 }
 
-th,td {
-    border: 1px solid #65527f;
-    padding: 0.75rem;
-    text-align:left;
-   
+.swatch-neutral {
+  background-color: #faf7f2;
+}
+
+.swatch-accent1 {
+  background-color: #d8bfd8;
+}
+
+.swatch-accent2 {
+  background-color: #7a5a16;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #65527f;
+  padding: 0.75rem;
+  text-align: left;
 }
 
 th {
-   background-color: #65527f;
-    color: #faf7f2;
+  background-color: #65527f;
+  color: #faf7f2;
 }
+
 tbody tr:nth-child(even) {
-    background-color: #f0ebf5;
+  background-color: #f0ebf5;
 }
