@@ -102,3 +102,23 @@ p {
 .swatch-neutral { background-color: #faf7f2; }
 .swatch-accent 1 { background-color: #d8bfd8; }
 .swatch-accent 2 { background-color: #7a5a16; }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid #65527f;
+    padding: 0.75rem;
+    text-align:left;
+   
+}
+
+th {
+   background-color: #65527f;
+    color: #faf7f2;
+}
+tbody tr:nth-child(even) {
+    background-color: #f0ebf5;
+}
