@@ -2,89 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luna's Wicks & Wonders — Style Tile</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <header>
-  <h1>Luna's Wicks&Wonders </h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="shop.html" class=cta >Shop</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+    <h1>Luna's Wicks & Wonders</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../shop.html" class="cta">Shop</a>
+      <a href="../gallery.html">Gallery</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
 
-   <main>
+  <main id="main-content">
     <h2>Style Tile</h2>
     <p>This page documents the design system used across this project: the palette, the typographic scale, and the spacing rules, so every page pulls from the same set of decisions instead of improvising fresh choices each time.</p>
-    
-   
-          <h3>Palettes</h3>
-  
-   <div class="swatch swatch-primary"></div>
-<p>Primary,Deep Lavender<code>#65527f</code> the primary brand color and can be used for major headings, 
-  navigation elements, and important visual areas which will pair with the soft ivory for the CTA button
-   Ivory text on this background color checks at 6.4 to 1 which is slightly above the 4.5 to 1 minimum.</p>
-  
-     <div class="swatch swatch-neutral"></div>
-     <p>Neutral text Deep Plum <code>#3d3548</code> on neutural background <code>#faf7f2</code>Body text and page background.
-     Checks at 10.9 to 1, the highest pairing in the whole palette</p>
-       
-     <div class="swatch swatch-accent 1"></div>
-     <p>Accent 1 Dusty Lilac <code>#d8bfd8</code> a softer secondary accent for cards, decorative elements, 
-       and subtle highlights.Used for decorative accents due to the page background pairing with this accent is 
-     at 1.5 to 1 below the 4.5 to 1 minimum for text </p>
-  
-    <div class="swatch swatch-accent 2"></div>
-     <p> Accent 2 Ancient Gold <code>#7a5a16</code> Used sparingly to draw attention to special details,icons,
-     borders and possibly premium icons. Could possibly be used with the background since it passes with a
-     5.9 to 1 slightly over the 4.5 to 1 minimum.</p>
 
+    <h3>Palette</h3>
 
+    <div class="swatch swatch-primary"></div>
+    <p><strong>Primary — Deep Lavender</strong> <code>#65527F</code><br>
+      The primary brand color. Use for major headings, navigation elements, and important visual areas. Ivory text on this background has a strong accessible contrast ratio.</p>
 
-      <h3>Type Scale</h3>
-     <h1>Heading 1 — 2.5rem (40px)</h1>
-     <h2>Heading 2 — 2rem (32px)</h2>
-     <h3>Heading 3 — 1.5rem (24px)</h3>
-     <h4>Heading 4-1.25rem(20px)</h4>
-     <p>Body text — 1rem (16px)</p>
-    
-     <h3>Spacing</h3>
+    <div class="swatch swatch-neutral"></div>
+    <p><strong>Neutral — Soft Ivory</strong> <code>#FAF7F2</code><br>
+      Used primarily for the page background and other large neutral areas. Deep Plum <code>#3D3548</code> is used for body text.</p>
+
+    <div class="swatch swatch-accent1"></div>
+    <p><strong>Accent 1 — Dusty Lilac</strong> <code>#D8BFD8</code><br>
+      A softer secondary accent for cards, decorative elements, and subtle highlights. It should not be used for small text on the ivory background because the contrast is too low.</p>
+
+    <div class="swatch swatch-accent2"></div>
+    <p><strong>Accent 2 — Ancient Gold</strong> <code>#7A5A16</code><br>
+      Used sparingly for special details, icons, borders, and CTA elements. It provides stronger contrast against the soft ivory background.</p>
+
+    <h3>Type Scale</h3>
+    <h1>Heading 1 — 2.5rem (40px)</h1>
+    <h2>Heading 2 — 2rem (32px)</h2>
+    <h3>Heading 3 — 1.5rem (24px)</h3>
+    <h4>Heading 4 — 1.25rem (20px)</h4>
+    <p>Body text — 1rem (16px)</p>
+
+    <h3>Spacing</h3>
     <ul>
       <li><code>main</code>: max-width 800px, centered with <code>margin: 0 auto</code>, padding 40px top and bottom, 20px left and right.</li>
-      <li>Every <code>h2</code>: margin-bottom 8px, keeps a heading close to the paragraph it belongs to.</li>
-      <li>Every <code>p</code>: margin-bottom 32px, separates one topic from the next.</li>
-      <li>The call-to-action button: padding 16px top and bottom, 32px left and right, plus margin-top 24px to separate it from whatever sits above it.</li>
+      <li>Every <code>h2</code>: margin-bottom 8px, keeping a heading close to the paragraph it belongs to.</li>
+      <li>Every <code>p</code>: margin-bottom 32px, separating one topic from the next.</li>
+      <li>CTA button: padding 12px top and bottom, 20px left and right, with margin-top 24px.</li>
+      <li>Table cells: 0.75rem (12px) padding with a 1px Deep Lavender border.</li>
     </ul>
-   </main>
-.swatch {
-  width: 120px;
-  height: 60px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
+  </main>
 
-.swatch-primary {
-  background-color: #65527f;
-}
-
-.swatch-neutral {
-  background-color: #faf7f2;
-  border: 1px solid #3d3548;
-}
-
-.swatch-accent 1 {
-  background-color: #d8bfd8;
-}
-  .swatch-accent 2 {
-  background-color: #7a5a16
   <footer>
-    <p>&copy;2026 Luna's Wicks&Wonders.</p>
+    <p>&copy; 2026 Luna's Wicks & Wonders.</p>
   </footer>
-  
 </body>
 </html>
