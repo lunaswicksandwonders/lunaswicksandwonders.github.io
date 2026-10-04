@@ -137,3 +137,21 @@ th {
 tbody tr:nth-child(even) {
   background-color: #f0ebf5;
 }
+
+label {
+  display: block;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  display: block;
+  margin-top: 0.25rem;
+  width: 100%;
+  max-width: 480px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 2rem;
+}
