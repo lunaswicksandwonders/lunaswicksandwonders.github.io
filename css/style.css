@@ -154,11 +154,6 @@ input, textarea {
 button[type="submit"] {
   display: block;
   margin-top: 2rem;
-}
-
-button[type="submit"] {
-  display: block;
-  margin-top: 2rem;
   background-color: #65527F;
   color: #FAF7F2;
   font-size: 1.25rem;
