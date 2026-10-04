@@ -171,4 +171,14 @@ form {
   border-radius: 8px;
 }
 
+button[type="submit"]:hover {
+  background-color: #A67C35;
+}
+
+button[type="submit"]:focus {
+  outline: 3px solid #D8BFD8;
+  outline-offset: 3px;
+}
+
+
 
