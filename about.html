@@ -27,7 +27,29 @@
      <p> Family and mindfulness are poured into every single jar we create. We carefully craft each small batch with the hope of lighting your wonder—one wick at a time—bringing the peace and beauty of the night sky straight into your home. Thank you for welcoming a piece of our universe into yours and supporting a business built genuinely from the heart.</p>
      <p> All the candles are handmade with love and care with hopes to light your wonder one wick at a time.</p>
      <p>Poured with Intention, Built for Legacy</p>
-      <footer>
+     
+     <h3> Pickup services </h3> 
+     <p> We offer the choise of pickup to delivery to residence within 50 mi of the business residence</p>
+     
+     <button onclick="getLocation()">Allow location</button>
+     <p id="location-message"></p>
+     <script>
+  function getLocation() {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  }
+  function showPosition(position) {
+    var lat = position.coords.latitude.toFixed(1);
+    var lon = position.coords.longitude.toFixed(1);
+    document.getElementById("location-message").textContent =
+      "You're near " + lat + ", " + lon + "Luna's Wicks& WOnders is a online small business that does pick up orders to residence within a 50 mi radius";
+  }
+       function showError(error) {
+    document.getElementById("location-message").textContent =
+      "Location access blocked. check our directions page for the address or contact us for alternatves to pick up service";
+  }
+</script>
+     
+     <footer>
     <p>&copy;2026 Luna's Wicks&Wonders.</p>
   </footer>
   
