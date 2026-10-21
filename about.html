@@ -29,7 +29,7 @@
      <p>Poured with Intention, Built for Legacy</p>
      
      <h3> Pickup services </h3> 
-     <p> We offer the choise of pickup to delivery to residence within 50 mi of the business residence</p>
+     <p> We offer the choice of pickup to residence within 50 mi of the business residence who dont want to wait for delivery.</p>
      
      <button onclick="getLocation()">Allow location</button>
      <p id="location-message"></p>
@@ -41,7 +41,7 @@
     var lat = position.coords.latitude.toFixed(1);
     var lon = position.coords.longitude.toFixed(1);
     document.getElementById("location-message").textContent =
-      "You're near " + lat + ", " + lon + "Luna's Wicks& WOnders is a online small business that does pick up orders to residence within a 50 mi radius";
+     + lat + ", " + lon + "Luna's Wicks& WOnders is a online small business that does pick up orders to residence within a 50 mi radius";
   }
        function showError(error) {
     document.getElementById("location-message").textContent =
