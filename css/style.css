@@ -19,6 +19,25 @@ header nav a {
   color: #faf7f2;
   margin-right: 14px;
 }
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
+}
+main {
+    flex: 2;
+  }
+
+  aside {
+    flex: 1;
+  }
+} 
 
 nav a[aria-current="page"] {
   font-weight: bold;
@@ -179,6 +198,17 @@ button[type="submit"]:focus {
   outline: 3px solid #D8BFD8;
   outline-offset: 3px;
 }
+
+  .page-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+
+
 
 
 
